@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HTML Tags </title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+    table, th, td { border: 1px solid black; border-collapse: collapse; padding: 5px; }
+    section, article, aside, header, footer, nav { border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to HTML Tag Demo</h1>
+  <p>This page shows many commonly used HTML5 tags.</p>
+
+  <hr>
+
+  <!-- Text formatting -->
+  <h2>Text Formatting Tags</h2>
+  <p>This is <b>bold</b>, <strong>strong</strong>, <i>italic</i>, <em>emphasized</em>, <u>underlined</u>, and <mark>highlighted</mark> text.</p>
+  <p>This is <small>small</small> text and <del>deleted</del> text with <ins>inserted</ins> content.</p>
+  <p>Superscript: x<sup>2</sup> and subscript: H<sub>2</sub>O</p>
+  <p>This is <code>inline code</code>.</p>
+
+  <!-- Font tag (deprecated) -->
+  <p><font color="blue" size="4" face="Verdana">This text uses the font tag (deprecated).</font></p>
+
+  <hr>
+
+  <!-- Lists -->
+  <h2>Lists</h2>
+  <ul>
+    <li>Unordered item 1</li>
+    <li>Unordered item 2</li>
+  </ul>
+  <ol>
+    <li>Ordered item 1</li>
+    <li>Ordered item 2</li>
+  </ol>
+  <dl>
+    <dt>HTML</dt>
+    <dd>HyperText Markup Language</dd>
+  </dl>
+
+  <hr>
+
+  <!-- Links and Images -->
+  <h2>Links and Images</h2>
+  <p>Visit <a href="https://www.google.com" target="_blank">Google</a></p>
+  <img src="https://via.placeholder.com/150" alt="Placeholder Image" width="150">
+
+  <hr>
+
+  <!-- Table -->
+  <h2>Table</h2>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Alice</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>Bob</td>
+      <td>25</td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <!-- Forms -->
+  <h2>Form Elements</h2>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name"><br><br>
+
+    <label>Gender:</label>
+    <input type="radio" name="gender"> Male
+    <input type="radio" name="gender"> Female<br><br>
+
+    <label>Skills:</label>
+    <input type="checkbox"> HTML
+    <input type="checkbox"> CSS<br><br>
+
+    <label for="country">Country:</label>
+    <select id="country">
+      <option>India</option>
+      <option>USA</option>
+    </select><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" rows="4" cols="30"></textarea><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <hr>
+
+  <!-- Semantic Tags -->
+  <h2>Semantic Tags</h2>
+  <header>This is a header</header>
+  <nav>This is navigation</nav>
+  <section>
+    <h3>Section Title</h3>
+    <article>This is an article inside the section.</article>
+    <aside>This is an aside element.</aside>
+  </section>
+  <footer>This is the footer.</footer>
+
+  <hr>
+
+  <!-- Multimedia -->
+  <h2>Multimedia</h2>
+  <video width="320" height="240" controls>
+    <source src="movie.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <audio controls>
+    <source src="sound.mp3" type="audio/mpeg">
+    Your browser does not support the audio tag.
+  </audio>
+
+  <hr>
+
+  <!-- Other useful tags -->
+  <h2>Other Tags</h2>
+  <p><abbr title="World Health Organization">WHO</abbr> is a UN agency.</p>
+  <p><time datetime="2025-06-29">Today’s date</time></p>
+  <p><progress value="70" max="100"></progress> Progress bar</p>
+  <p><meter value="0.6">60%</meter> Meter example</p>
+  <details>
+    <summary>Click to expand</summary>
+    This is hidden text shown when expanded.
+  </details>
+
+</body>
+</html>
